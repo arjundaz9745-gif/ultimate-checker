@@ -3729,3 +3729,9 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error starting bot: {e}")
         raise
+try:
+    # fetch / selenium step
+    ...
+except Exception as e:
+    print("Request failed:", e)
+    # do not sys.exit(1) unless the bot truly cannot start
